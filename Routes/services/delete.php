@@ -1,5 +1,5 @@
 <?php
-
+$data = json_decode(file_get_contents('php://input'), true);
 
 function badResponse(){
     $json = array(
@@ -9,9 +9,6 @@ function badResponse(){
     echo json_encode($json,http_response_code($json['status']));
 
 }
-
-$data = json_decode(file_get_contents('php://input'), true);
-
 if (isset($_SERVER['HTTP_AUTHORIZATION'])) {
     $authorizationHeader = $_SERVER['HTTP_AUTHORIZATION'];
     if (strpos($authorizationHeader, 'Token') === 0) {

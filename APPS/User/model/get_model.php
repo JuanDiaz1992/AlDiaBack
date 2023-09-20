@@ -1,6 +1,6 @@
 <?php
 
-require_once "gestionRestauranteSettings/Connection.php";
+require_once "alDiaSettings/Connection.php";
 $response = new GetController();
 class GetModel{
     //Peticiones get sin filtro

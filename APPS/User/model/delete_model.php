@@ -1,7 +1,7 @@
 <?php
 
 
-require_once "gestionRestauranteSettings/Connection.php";
+require_once "alDiaSettings/Connection.php";
 class DeleteModel{
     //Peticiones post sin filtro
     static public function deleteData($table, $select){

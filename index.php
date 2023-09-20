@@ -1,15 +1,15 @@
 <?php
 
-require_once "gestionRestauranteSettings/cors.php";
+require_once "alDiaSettings/cors.php";
 
 
 //Manejo de errores
 ini_set('display_errors',1);
 ini_set('logs_errors',1);
-ini_set('error_log','C:/xampp/htdocs/gestion_restaurante/Error/php_error_log');
+ini_set('error_log','C:/xampp/htdocs/al_dia_backend/Error/php_error_log');
 
 //Manejo de rutas
-require_once "gestionRestauranteSettings/routes_controller.php";
+require_once "alDiaSettings/routes_controller.php";
 $index = new RoutesController();
 $index-> index();
 

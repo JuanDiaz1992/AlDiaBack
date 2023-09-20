@@ -5,8 +5,9 @@ require_once "APPS/User/controller/post_controler.php";
 $response = new PostController();
 
 if(isset($data["login_request"])){
-    $table = "profile_user";
+    $table = "users";
     $response -> postDataconsultUser($table, $data["username"], $data["password"]);
+
     
 }else if(isset($_POST["newUser_request"])){
     session_id($token);

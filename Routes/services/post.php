@@ -1,7 +1,4 @@
 <?php
-
-
-
 $data = json_decode(file_get_contents('php://input'), true);
 
 function badResponse(){
@@ -33,7 +30,6 @@ if (isset($_SERVER['HTTP_MODULE'])) {
 
 if($module == 'user'){
     require_once "APPS/User/views/post.php";
-
 }else if($module == 'inventory'){
     require_once "APPS/Inventory/views/post.php";
 }else if($module == 'menu_management'){

@@ -3,7 +3,7 @@ class Connection{
     //Información de la base de datos
     static public function infoDatabase(){
         $infoDB = array(
-            "database" => "gestion_restaurante_mysql",
+            "database" => "al_dia_bd_mysql",
             "user"=> "root",
             "pass" => "3118514322s"
         );

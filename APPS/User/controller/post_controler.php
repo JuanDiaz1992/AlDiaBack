@@ -1,7 +1,8 @@
 <?php
 
 require_once "APPS/User/model/post_model.php";
-
+require_once('vendor/autoload.php');
+use Firebase\JWT\JWT;
 
 class PostController{
 
@@ -153,22 +154,29 @@ class PostController{
     }
     public function isUserOk($response){ //Si el usuario y contraseña coinciden, se inicia sesión
         if (!empty($response)) {
-            $new_id = rand(3000, 11500); //Se genera un id para la sesión el cuál servirá como token en el front
-            session_id($new_id);
+            require_once "alDiaSettings/Generator_token.php";
+            $tokenGerator = Token::generateToken($response[0]->id, $response[0]->user);
+            error_log(print_r($response, true));
+            $jwt = JWT::encode($tokenGerator,'3aw58420', 'HS256'); //Generación de token con los datos de usuario y codigo alfanumerico
+            session_id($tokenGerator["id"]);
             session_set_cookie_params(1800);
             session_start();
-            $_SESSION["username"] = $response[0]->username; //Se guardan las variables de sesión
+            $_SESSION["exp"] = $tokenGerator["exp"]; //Aquí se expesifica la fecha de expiración
+            $_SESSION["username"] = $response[0]->user; //Se guardan las variables de sesión
             $_SESSION["estatus"] = true;
             $_SESSION["type_user"] = $response[0]->type_user;
             $json = array( //Se devuelve el json con la información necesaria para inicia la sesión en el front
                 'status' => 200,
                 'is_logged_in' => true, 
-                'token' => $new_id,
+                'token' => $jwt,
                 'username'=> $_SESSION["username"],
                 "message"=> "Usuario correcto",
-                "name"=> $response[0]->name,
+                "firtsName"=> $response[0]->primer_nombre,
+                "middleName"=>$response[0]->segundo_nombre,
+                "last_name"=>$response[0]->primer_apellido,
+                "second_last_name"=>$response[0]->segundo_apellido,
                 "type_user" => $response[0]->type_user,
-                "photo" => $response[0]->photo,
+                "photo" => $response[0]->foto_perfil,
                 "id_user"=>$response[0]->id
             );
         }else{

@@ -1,7 +1,7 @@
 <?php
 
 
-require_once "gestionRestauranteSettings/Connection.php";
+require_once "alDiaSettings/Connection.php";
 class PostModel{
     //Creación de Usuario nuevo 
     static public function postDataCreateUser($id_business,$userName, $password, $name, $photo, $type_user)
@@ -33,9 +33,12 @@ class PostModel{
     //Este metodo es utilizado para consultar contraseña con el has
     static public function postDataconsultUser($table, $user, $password)
     {
-        $sql = "SELECT * FROM $table WHERE username = :username";
+        $sql = "SELECT users.*, perfil.* 
+        FROM users
+        INNER JOIN perfil ON users.perfil = perfil.id 
+        WHERE users.user = :user";
         $stmt = Connection::connect()->prepare($sql);
-        $stmt->bindParam(":username", $user, PDO::PARAM_STR);
+        $stmt->bindParam(":user", $user, PDO::PARAM_STR);
         $stmt->execute();
         $result = $stmt->fetchAll(PDO::FETCH_CLASS);
 
