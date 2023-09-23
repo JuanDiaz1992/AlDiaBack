@@ -31,14 +31,16 @@ class GetController{
     }
 
 
-    static public function validateUSer($username){
-        $json = array(
-            'status' => 200,
-            'logged_in' => true,
-            'username' => $username
-        );
-    
-    echo json_encode($json,http_response_code($json['status']));
+    static public function validateUSer($tokenOK){
+        $return = new GetController();
+        $response = "";
+        if (isset($tokenOK)) {
+            $response = array(
+                'status' => 200,
+                'logged_in' => true,
+            );
+        }
+        $return -> fncResponse($response);  
     }
 
     

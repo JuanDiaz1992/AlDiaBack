@@ -4,7 +4,6 @@ require_once "APPS/User/controller/delete_controler.php";
 require_once('alDiaSettings/Generator_token.php');
 $response = new DeleteController();
 $tokenDecode = Token::decodeToken($token);
-error_log(print_r($tokenDecode,true));
 if (isset($tokenDecode)) {
     session_id($tokenDecode->id);
     session_start();

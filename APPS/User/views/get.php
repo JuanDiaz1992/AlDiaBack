@@ -1,9 +1,10 @@
 <?php
 require_once "APPS/User/controller/get_controler.php";
+require_once('alDiaSettings/Generator_token.php');
 $response = new GetController();
-
-if(isset($token)){
-    session_id($token);
+$tokenDecode = Token::decodeToken($token);
+if(isset($tokenDecode)){
+    session_id($tokenDecode->id);
     session_start();
     
     if(isset($_SESSION["estatus"]) == true){
@@ -14,7 +15,8 @@ if(isset($token)){
             $response->getAllUsers($table,$select);
         }    
         elseif($table == 'validateSession' ) {
-            $response -> validateUSer($_SESSION["username"]);
+            require_once('alDiaSettings/Generator_token.php');
+            $response -> validateUSer($tokenDecode);
         }
     
         else{

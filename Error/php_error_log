@@ -1,18 +1,54 @@
-[20-Sep-2023 06:28:26 Europe/Berlin] stdClass Object
-(
-    [iat] => 1695183641
-    [exp] => 1695270041
-    [data] => stdClass Object
-        (
-            [id] => 1
-            [user] => admin
-        )
-
-    [id] => 7239
-)
-
-[20-Sep-2023 06:28:26 Europe/Berlin] Session Destroy From Delete
-[20-Sep-2023 06:28:31 Europe/Berlin] Array
+[23-Sep-2023 03:20:36 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[23-Sep-2023 03:20:36 Europe/Berlin] PHP Warning:  Undefined array key "HTTP_MODULE" in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 34
+[23-Sep-2023 03:20:36 Europe/Berlin] 
+[23-Sep-2023 03:20:36 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 36
+[23-Sep-2023 03:20:36 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 38
+[23-Sep-2023 03:20:36 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 40
+[23-Sep-2023 03:20:36 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 42
+[23-Sep-2023 03:20:36 Europe/Berlin] user
+[23-Sep-2023 03:20:36 Europe/Berlin] user
+[23-Sep-2023 03:21:13 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[23-Sep-2023 03:21:13 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
+[23-Sep-2023 03:21:13 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
+[23-Sep-2023 03:21:13 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 39
+[23-Sep-2023 03:21:13 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 41
+[23-Sep-2023 03:21:53 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[23-Sep-2023 03:21:53 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
+[23-Sep-2023 03:21:53 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
+[23-Sep-2023 03:21:53 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 39
+[23-Sep-2023 03:21:53 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 41
+[23-Sep-2023 03:22:24 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[23-Sep-2023 03:22:24 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
+[23-Sep-2023 03:22:24 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
+[23-Sep-2023 03:22:24 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 39
+[23-Sep-2023 03:22:24 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 41
+[23-Sep-2023 03:23:24 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[23-Sep-2023 03:23:24 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
+[23-Sep-2023 03:23:24 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
+[23-Sep-2023 03:23:24 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 39
+[23-Sep-2023 03:23:24 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 41
+[23-Sep-2023 03:23:25 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[23-Sep-2023 03:23:25 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
+[23-Sep-2023 03:23:25 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
+[23-Sep-2023 03:23:25 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 39
+[23-Sep-2023 03:23:25 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 41
+[23-Sep-2023 03:24:03 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[23-Sep-2023 03:24:03 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
+[23-Sep-2023 03:24:03 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
+[23-Sep-2023 03:24:03 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 39
+[23-Sep-2023 03:24:03 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 41
+[23-Sep-2023 03:25:47 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[23-Sep-2023 03:25:47 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
+[23-Sep-2023 03:25:47 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
+[23-Sep-2023 03:25:47 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 39
+[23-Sep-2023 03:25:47 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 41
+[23-Sep-2023 03:27:07 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[23-Sep-2023 03:27:07 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
+[23-Sep-2023 03:27:07 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
+[23-Sep-2023 03:27:07 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 39
+[23-Sep-2023 03:27:07 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 41
+[23-Sep-2023 03:27:59 Europe/Berlin] Session Destroy From Delete
+[23-Sep-2023 03:28:02 Europe/Berlin] Array
 (
     [0] => stdClass Object
         (
@@ -27,28 +63,15 @@
             [segundo_apellido] => Valencia
             [tipo_documento] => 1
             [numero_documento] => 1040740765
-            [foto_perfil] => //
+            [foto_perfil] => files/user_profile/admin/278091583_10223983323065818_8927820569779141776_n.jpg
             [informacion_complementaria] => 1
             [exogena] => 1
         )
 
 )
 
-[20-Sep-2023 06:30:04 Europe/Berlin] stdClass Object
-(
-    [iat] => 1695184111
-    [exp] => 1695270511
-    [data] => stdClass Object
-        (
-            [id] => 1
-            [user] => admin
-        )
-
-    [id] => 4450
-)
-
-[20-Sep-2023 06:30:04 Europe/Berlin] Session Destroy From Delete
-[20-Sep-2023 06:31:29 Europe/Berlin] Array
+[23-Sep-2023 03:28:09 Europe/Berlin] Session Destroy From Delete
+[23-Sep-2023 03:28:18 Europe/Berlin] Array
 (
     [0] => stdClass Object
         (
@@ -63,30 +86,15 @@
             [segundo_apellido] => Valencia
             [tipo_documento] => 1
             [numero_documento] => 1040740765
-            [foto_perfil] => //
+            [foto_perfil] => files/user_profile/admin/278091583_10223983323065818_8927820569779141776_n.jpg
             [informacion_complementaria] => 1
             [exogena] => 1
         )
 
 )
 
-[20-Sep-2023 06:42:02 Europe/Berlin] 
-[20-Sep-2023 06:44:00 Europe/Berlin] 
-[20-Sep-2023 06:47:17 Europe/Berlin] stdClass Object
-(
-    [iat] => 1695184289
-    [exp] => 1695270689
-    [data] => stdClass Object
-        (
-            [id] => 1
-            [user] => admin
-        )
-
-    [id] => 8484
-)
-
-[20-Sep-2023 06:47:17 Europe/Berlin] Session Destroy From Delete
-[20-Sep-2023 06:49:04 Europe/Berlin] Array
+[23-Sep-2023 03:28:27 Europe/Berlin] Session Destroy From Delete
+[23-Sep-2023 03:29:51 Europe/Berlin] Array
 (
     [0] => stdClass Object
         (
@@ -101,28 +109,14 @@
             [segundo_apellido] => Valencia
             [tipo_documento] => 1
             [numero_documento] => 1040740765
-            [foto_perfil] => //
+            [foto_perfil] => files/user_profile/admin/278091583_10223983323065818_8927820569779141776_n.jpg
             [informacion_complementaria] => 1
             [exogena] => 1
         )
 
 )
 
-[20-Sep-2023 07:01:49 Europe/Berlin] stdClass Object
-(
-    [iat] => 1695185344
-    [exp] => 1695271744
-    [data] => stdClass Object
-        (
-            [id] => 1
-            [user] => admin
-        )
-
-    [id] => 10775
-)
-
-[20-Sep-2023 07:01:49 Europe/Berlin] Session Destroy From Delete
-[20-Sep-2023 07:01:55 Europe/Berlin] Array
+[23-Sep-2023 03:30:32 Europe/Berlin] Array
 (
     [0] => stdClass Object
         (
@@ -137,28 +131,15 @@
             [segundo_apellido] => Valencia
             [tipo_documento] => 1
             [numero_documento] => 1040740765
-            [foto_perfil] => //
+            [foto_perfil] => files/user_profile/admin/278091583_10223983323065818_8927820569779141776_n.jpg
             [informacion_complementaria] => 1
             [exogena] => 1
         )
 
 )
 
-[20-Sep-2023 07:03:56 Europe/Berlin] stdClass Object
-(
-    [iat] => 1695186115
-    [exp] => 1695272515
-    [data] => stdClass Object
-        (
-            [id] => 1
-            [user] => admin
-        )
-
-    [id] => 7056
-)
-
-[20-Sep-2023 07:03:56 Europe/Berlin] Session Destroy From Delete
-[20-Sep-2023 07:03:59 Europe/Berlin] Array
+[23-Sep-2023 03:31:03 Europe/Berlin] Session Destroy From Delete
+[23-Sep-2023 03:31:07 Europe/Berlin] Array
 (
     [0] => stdClass Object
         (
@@ -173,28 +154,15 @@
             [segundo_apellido] => Valencia
             [tipo_documento] => 1
             [numero_documento] => 1040740765
-            [foto_perfil] => //
+            [foto_perfil] => files/user_profile/admin/278091583_10223983323065818_8927820569779141776_n.jpg
             [informacion_complementaria] => 1
             [exogena] => 1
         )
 
 )
 
-[20-Sep-2023 07:04:02 Europe/Berlin] stdClass Object
-(
-    [iat] => 1695186239
-    [exp] => 1695272639
-    [data] => stdClass Object
-        (
-            [id] => 1
-            [user] => admin
-        )
-
-    [id] => 5351
-)
-
-[20-Sep-2023 07:04:02 Europe/Berlin] Session Destroy From Delete
-[20-Sep-2023 07:04:05 Europe/Berlin] Array
+[23-Sep-2023 03:33:13 Europe/Berlin] Session Destroy From Delete
+[23-Sep-2023 03:33:31 Europe/Berlin] Array
 (
     [0] => stdClass Object
         (
@@ -209,28 +177,15 @@
             [segundo_apellido] => Valencia
             [tipo_documento] => 1
             [numero_documento] => 1040740765
-            [foto_perfil] => //
+            [foto_perfil] => files/user_profile/admin/278091583_10223983323065818_8927820569779141776_n.jpg
             [informacion_complementaria] => 1
             [exogena] => 1
         )
 
 )
 
-[20-Sep-2023 07:04:22 Europe/Berlin] stdClass Object
-(
-    [iat] => 1695186245
-    [exp] => 1695272645
-    [data] => stdClass Object
-        (
-            [id] => 1
-            [user] => admin
-        )
-
-    [id] => 10280
-)
-
-[20-Sep-2023 07:04:22 Europe/Berlin] Session Destroy From Delete
-[20-Sep-2023 07:08:21 Europe/Berlin] Array
+[23-Sep-2023 03:35:37 Europe/Berlin] Session Destroy From Delete
+[23-Sep-2023 03:41:14 Europe/Berlin] Array
 (
     [0] => stdClass Object
         (
@@ -245,28 +200,15 @@
             [segundo_apellido] => Valencia
             [tipo_documento] => 1
             [numero_documento] => 1040740765
-            [foto_perfil] => //
+            [foto_perfil] => files/user_profile/admin/278091583_10223983323065818_8927820569779141776_n.jpg
             [informacion_complementaria] => 1
             [exogena] => 1
         )
 
 )
 
-[20-Sep-2023 07:11:20 Europe/Berlin] stdClass Object
-(
-    [iat] => 1695186501
-    [exp] => 1695272901
-    [data] => stdClass Object
-        (
-            [id] => 1
-            [user] => admin
-        )
-
-    [id] => 7984
-)
-
-[20-Sep-2023 07:11:20 Europe/Berlin] Session Destroy From Delete
-[20-Sep-2023 07:11:23 Europe/Berlin] Array
+[23-Sep-2023 03:41:16 Europe/Berlin] Session Destroy From Delete
+[23-Sep-2023 03:41:44 Europe/Berlin] Array
 (
     [0] => stdClass Object
         (
@@ -281,7 +223,215 @@
             [segundo_apellido] => Valencia
             [tipo_documento] => 1
             [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/278091583_10223983323065818_8927820569779141776_n.jpg
+            [informacion_complementaria] => 1
+            [exogena] => 1
+        )
+
+)
+
+[23-Sep-2023 03:41:52 Europe/Berlin] Session Destroy From Delete
+[23-Sep-2023 03:44:23 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/278091583_10223983323065818_8927820569779141776_n.jpg
+            [informacion_complementaria] => 1
+            [exogena] => 1
+        )
+
+)
+
+[23-Sep-2023 03:45:12 Europe/Berlin] Session Destroy From Delete
+[23-Sep-2023 03:46:44 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 2
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/278091583_10223983323065818_8927820569779141776_n.jpg
+            [informacion_complementaria] => 1
+            [exogena] => 1
+        )
+
+)
+
+[23-Sep-2023 03:46:52 Europe/Berlin] Session Destroy From Delete
+[23-Sep-2023 03:47:13 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/278091583_10223983323065818_8927820569779141776_n.jpg
+            [informacion_complementaria] => 1
+            [exogena] => 1
+        )
+
+)
+
+[23-Sep-2023 03:55:44 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 2
+            [user] => leidy1993
+            [password] => $2y$10$4EQaqpX8U6olpgjyEf6Pw.SGFrvUiihMYjXHpv4wbGGXpSWeZmEhm
+            [perfil] => 2
+            [type_user] => 2
+            [primer_nombre] => Leidy
+            [segundo_nombre] => Vanessa
+            [primer_apellido] => Largo
+            [segundo_apellido] => Alvarez
+            [tipo_documento] => 1
+            [numero_documento] => 102355774
             [foto_perfil] => //
+            [informacion_complementaria] => 2
+            [exogena] => 2
+        )
+
+)
+
+[23-Sep-2023 03:55:45 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[23-Sep-2023 03:55:45 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
+[23-Sep-2023 03:55:45 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
+[23-Sep-2023 03:55:45 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 39
+[23-Sep-2023 03:55:45 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 41
+[23-Sep-2023 03:56:43 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[23-Sep-2023 03:56:43 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
+[23-Sep-2023 03:56:43 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
+[23-Sep-2023 03:56:43 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 39
+[23-Sep-2023 03:56:43 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 41
+[23-Sep-2023 03:59:13 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[23-Sep-2023 03:59:13 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
+[23-Sep-2023 03:59:13 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
+[23-Sep-2023 03:59:13 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 39
+[23-Sep-2023 03:59:13 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 41
+[23-Sep-2023 03:59:42 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[23-Sep-2023 03:59:42 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
+[23-Sep-2023 03:59:42 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
+[23-Sep-2023 03:59:42 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 39
+[23-Sep-2023 03:59:42 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 41
+[23-Sep-2023 04:00:00 Europe/Berlin] PHP Warning:  Undefined array key 2 in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[23-Sep-2023 04:00:00 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
+[23-Sep-2023 04:00:00 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
+[23-Sep-2023 04:00:00 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 39
+[23-Sep-2023 04:00:01 Europe/Berlin] PHP Warning:  Undefined variable $module in C:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 41
+[23-Sep-2023 04:00:16 Europe/Berlin] Session Destroy From Delete
+[23-Sep-2023 04:00:20 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/278091583_10223983323065818_8927820569779141776_n.jpg
+            [informacion_complementaria] => 1
+            [exogena] => 1
+        )
+
+)
+
+[23-Sep-2023 04:00:23 Europe/Berlin] Session Destroy From Delete
+[23-Sep-2023 04:00:31 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 2
+            [user] => leidy1993
+            [password] => $2y$10$4EQaqpX8U6olpgjyEf6Pw.SGFrvUiihMYjXHpv4wbGGXpSWeZmEhm
+            [perfil] => 2
+            [type_user] => 2
+            [primer_nombre] => Leidy
+            [segundo_nombre] => Vanessa
+            [primer_apellido] => Largo
+            [segundo_apellido] => Alvarez
+            [tipo_documento] => 1
+            [numero_documento] => 102355774
+            [foto_perfil] => //
+            [informacion_complementaria] => 2
+            [exogena] => 2
+        )
+
+)
+
+[23-Sep-2023 04:00:57 Europe/Berlin] Session Destroy From Delete
+[23-Sep-2023 04:01:01 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/278091583_10223983323065818_8927820569779141776_n.jpg
+            [informacion_complementaria] => 1
+            [exogena] => 1
+        )
+
+)
+
+[23-Sep-2023 04:01:20 Europe/Berlin] Session Destroy From Delete
+[23-Sep-2023 04:01:26 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/278091583_10223983323065818_8927820569779141776_n.jpg
             [informacion_complementaria] => 1
             [exogena] => 1
         )

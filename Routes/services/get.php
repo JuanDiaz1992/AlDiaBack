@@ -12,7 +12,7 @@ function badResponse(){
 
 }
 
-
+$token = "";
 
 if (isset($_SERVER['HTTP_AUTHORIZATION'])) {
     $authorizationHeader = $_SERVER['HTTP_AUTHORIZATION'];
@@ -30,6 +30,7 @@ if (isset($_SERVER['HTTP_MODULE'])) {
         badResponse();
     }
 }
+
 
 if($module == 'user'){
     require_once "APPS/User/views/get.php";  
