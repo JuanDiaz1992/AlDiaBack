@@ -4,29 +4,60 @@
 require_once "alDiaSettings/Connection.php";
 class PostModel{
     //Creación de Usuario nuevo 
-    static public function postDataCreateUser($id_business,$userName, $password, $name, $photo, $type_user)
-    {   
-        $sql = "SELECT * FROM profile_user WHERE username = :username";
+    static public function postDataCreateUser($firstName,$secondName,$firstLastName,$secondLastName,$userName,$email,$hashedPassword){   
+
+        //Valida si el correo o el username ya existe
+        $sql = "SELECT * FROM informacion_complementaria WHERE correo = :correo";
         $stmt = Connection::connect()->prepare($sql);
-        $stmt->bindParam(":username", $userName, PDO::PARAM_STR);
+        $stmt->bindParam(":correo", $email, PDO::PARAM_STR);
         $stmt->execute();
         $row = $stmt->fetch();
         if($row){
             return 409;
-        }else{
-            $sql = "INSERT INTO profile_user (username, password, name, photo, type_user, id_negocio) VALUES (:username, :password, :name, :photo, :type_user, :id_negocio)";
-            $stmt = Connection::connect()->prepare($sql);
-            
-            $stmt->bindParam(':username', $userName);
-            $stmt->bindParam(':password', $password);
-            $stmt->bindParam(':name', $name);
-            $stmt->bindParam(':photo', $photo);
-            $stmt->bindParam(':type_user', $type_user);
-            $stmt->bindParam(':id_negocio', $id_business);
-            $stmt->execute();
-            $rowCount = $stmt->rowCount();
-            return 200;
         }
+        
+        $sql = "SELECT * FROM users WHERE user = :user";
+        $stmt = Connection::connect()->prepare($sql);
+        $stmt->bindParam(":user", $userName, PDO::PARAM_STR);
+        $stmt->execute();
+        $row2 = $stmt->fetch();
+        if ($row2) {
+            return 409;
+        }
+
+        //Crea el id para información complementaria y registra el correo, el id se requiere para crear el perfil
+        $sql = "INSERT INTO informacion_complementaria (correo) VALUES (:correo)";
+        $stmt = Connection::connect()->prepare($sql);
+        $stmt->bindParam(':correo', $email);
+        $stmt->execute();
+        $idInformacionComplementaria = $stmt->lastInsertId(); // Obtener el ID generado
+        error_log($idInformacionComplementaria);
+        //Se crea el perfil y se añade el id de información complementaria
+        $sql = "INSERT INTO perfil (primer_nombre,segundo_nombre,primer_apellido,segundo_apellido,informacion_complementaria) VALUES (:primer_nombre,:segundo_nombre,:primer_apellido,:segundo_apellido,:informacion_complementaria )";
+        $stmt = Connection::connect()->prepare($sql);
+        $stmt->bindParam(':primer_nombre', $firstName);
+        $stmt->bindParam(':segundo_nombre', $secondName);
+        $stmt->bindParam(':primer_apellido', $firstLastName);
+        $stmt->bindParam(':segundo_apellido', $secondLastName);
+        $stmt->bindParam(':informacion_complementaria', $idInformacionComplementaria);
+        $stmt->execute();
+        $idPerfil = Connection::connect()->lastInsertId(); // Obtener el ID generado
+
+        //se crea el usuario y la contraseña, con el tipo de usuario y se añade el id de perfil
+        $sql = "INSERT INTO users (user, password, perfil,type_user) VALUES (:user, :password, :perfil, :type_user)";
+        $stmt = Connection::connect()->prepare($sql);
+        $stmt->bindParam(':user', $userName);
+        $stmt->bindParam(':password', $hashedPassword);
+        $stmt->bindParam(':perfil', $idPerfil);
+        $stmt->bindParam(':type_user', 2);
+        $stmt->execute();
+        $rowCount = $stmt->rowCount();
+        if ($rowCount > 0){
+            return 200;
+        }else{
+            return 404;
+        }
+
 
     }
 

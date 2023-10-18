@@ -4,7 +4,7 @@ class Connection{
     static public function infoDatabase(){
         $infoDB = array(
             "database" => "al_dia_bd_mysql",
-            "user"=> "root",
+            "user"=> "administrador",
             "pass" => "3118514322s"
         );
         return $infoDB;
