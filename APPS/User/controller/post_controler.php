@@ -60,9 +60,9 @@ class PostController{
             //     $rutaArchivoRelativa = "files/images/sin_imagen.webp";
             // }
 
-            
+            $type_user = 2;
             $hashedPassword = password_hash($password, PASSWORD_DEFAULT); //Aquí se genera un hash para la contraseña
-            $response = PostModel::postDataCreateUser($firstName,$secondName,$firstLastName,$secondLastName,$userName,$email,$hashedPassword);
+            $response = PostModel::postDataCreateUser($firstName,$secondName,$firstLastName,$secondLastName,$userName,$email,$hashedPassword,$type_user);
             $return = new PostController();
             if ($response == 404){
                 $return -> fncResponse($response,404);
