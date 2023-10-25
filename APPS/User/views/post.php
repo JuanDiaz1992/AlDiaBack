@@ -7,22 +7,11 @@ $response = new PostController();
 if(isset($data["login_request"])){
     $table = "users";
     $response -> postDataconsultUser($table, $data["username"], $data["password"]);
-
 }else if(isset($data["newUser_request"])){
-    $response ->postControllerCreateUser(
-        $data['firstName'],
-        $data['secondName'],
-        $data['firstLastName'],
-        $data['secondLastName'],
-        $data['email'],
-        $data['userName'],
-        $data['password'],
-        $data['confirmPasword'],
-        );
-
-
-
-        
+    $response ->postControllerCreateUser($data);        
+}else if(isset($data["complete_profile"])){
+    $table = "users";
+    $response ->postControllerCompleteRecord($data,$table);
 }else if(isset($_REQUEST["edit_user_request"])){
     session_id($token);
     session_start();
