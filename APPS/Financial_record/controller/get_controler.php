@@ -1,7 +1,7 @@
 <?php
 
 
-require_once "APPS/Menu_management/model/get_model.php";
+require_once "APPS/Financial_record/model/get_model.php";
 
 class GetController{
     static public function getData($table,$select){

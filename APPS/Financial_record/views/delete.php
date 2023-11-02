@@ -1,5 +1,5 @@
 <?php
-require_once "APPS/Menu_management/controller/delete_controler.php";
+require_once "APPS/Financial_record/controller/delete_controler.php";
 $response = new DeleteController();
 
 session_id($token);

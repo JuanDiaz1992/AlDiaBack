@@ -1,10 +1,11 @@
 <?php
 
-require_once "gestionRestauranteSettings/Connection.php";
+require_once "alDiaSettings/Connection.php";
 $response = new GetController();
 class GetModel{
     //Peticiones get sin filtro
     static public function getData($table, $select){
+
         $sql = "SELECT $select FROM $table";
         $stmt = Connection::connect()->prepare($sql);
         $stmt-> execute();

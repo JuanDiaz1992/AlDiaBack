@@ -34,12 +34,8 @@ if (isset($_SERVER['HTTP_MODULE'])) {
 
 if($module == 'user'){
     require_once "APPS/User/views/get.php";  
-}else if($module == 'business'){
-    require_once "APPS/Business/views/get.php";
-}else if($module == 'inventory'){
-    require_once "APPS/Inventory/views/get.php";
-}else if($module == 'menu_management'){
-    require_once "APPS/Menu_management/views/get.php";
+}else if($module == 'financial_record'){
+    require_once "APPS/Financial_record/views/get.php";
 }
 
 ?>

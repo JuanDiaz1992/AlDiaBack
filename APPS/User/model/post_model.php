@@ -78,7 +78,7 @@ class PostModel{
                 estado_civil = :estado_civil,
                 ocupacion = :ocupacion,
                 tratamiento_datos = :tratamiento_datos
-                WHERE id = :id";
+                WHERE id_profile = :id_profile";
         $stmt = Connection::connect()->prepare($sql);
         $stmt->bindParam(":tipo_documento", $data["typeDocument"], PDO::PARAM_STR);
         $stmt->bindParam(":numero_documento", $data["document"], PDO::PARAM_STR);
@@ -90,7 +90,7 @@ class PostModel{
         $stmt->bindParam(":estado_civil", $data["civilState"], PDO::PARAM_STR);
         $stmt->bindParam(":ocupacion", $data["occupation"], PDO::PARAM_STR);
         $stmt->bindParam(":tratamiento_datos", $data["dataPolitic"], PDO::PARAM_STR);
-        $stmt->bindParam(":id", $data["idsPerfil"], PDO::PARAM_STR);
+        $stmt->bindParam(":id_profile", $data["idsPerfil"], PDO::PARAM_STR);
         $stmt->execute();
         $rowCount = $stmt->rowCount();
         if ($rowCount > 0){
@@ -106,13 +106,13 @@ class PostModel{
     {
         $sql = "SELECT users.*, perfil.* 
         FROM users
-        INNER JOIN perfil ON users.perfil = perfil.id 
+        INNER JOIN perfil ON users.perfil = perfil.id_profile 
         WHERE users.user = :user";
         $stmt = Connection::connect()->prepare($sql);
         $stmt->bindParam(":user", $user, PDO::PARAM_STR);
         $stmt->execute();
         $result = $stmt->fetchAll(PDO::FETCH_CLASS);
-
+        error_log(print_r($result, true));
         // Verificar si se encontró un usuario con el nombre proporcionado
         if (count($result) > 0) {
             $hashedPassword = $result[0]->password;

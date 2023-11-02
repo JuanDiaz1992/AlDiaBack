@@ -1,0 +1,67 @@
+<?php
+
+require_once "APPS/Financial_record/model/post_model.php";
+
+class PostController{
+    static public function record_income_controller($data){
+        if (
+            $data['id_user'] == "" ||
+            $data['date'] == "" ||
+            $data['amount'] == "" ||
+            $data['description'] == "" ||
+            $data['category'] == ""
+            ){
+                PostController::fncResponse(409,"",'Debes completar todos los campos');
+                exit;
+            }
+        else if(
+            !preg_match('/^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0-2])\/\d{4}$/', $data['date']) || //En este if se validan caracteres especiales
+            !preg_match('/^\d+(\.\d{1,2})?$/', $data['amount']) ||
+            !preg_match('/^[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ]+$/', $data['description'])){
+                PostController::fncResponse(409,'','Los datos ingresados no son correctos, valide la información e intentelo de nuevo');
+                exit;
+            }
+        else{
+            $table = "income";
+            $response = PostModel::record_income_model($data,$table,'Registro ingresado correctamente');
+            PostController::fncResponse($response);
+        }
+
+    }
+
+
+    //Respuesta del controlador:
+    public function fncResponse($status,$response = "",$message = ""){ //Metodo usado para dar respuestas básicas
+        if ($status === 200) {
+            $json = array(
+                'status' => $status,
+                'results' => 'success',
+                'registered'=>true,
+                'message' => $message
+            );
+        }else if($status === 409){
+            $json = array(
+                'registered'=>false,
+                'status' => $status,
+                'results' => 'Not Found',
+                'message' => $message
+            );
+        }else{
+            $json = array(
+                'registered'=>false,
+                'status' => 404,
+                'results' => 'Not Found',
+                'message' => "No se pudo realizar el registro, valide los datos e intentelo de nuevo"
+            );
+        }
+
+        echo json_encode($json,http_response_code($json['status']));
+
+    
+    }
+
+
+}
+
+
+?>
