@@ -6,7 +6,12 @@ $tokenDecode = Token::decodeToken($token);
 if(isset($tokenDecode)){
     session_id($tokenDecode->id);
     session_start();
-    $response->getData($table,$select);   
+    if($table === "setStateFinancial" ){
+        $response->getData_state_financial_controller($_GET);
+    }else{
+        $response->getData($table,$select); 
+    }
+  
 }else{
     badResponse();
 }

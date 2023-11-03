@@ -34,6 +34,15 @@ class GetModel{
 
     }
 
+    static public function getData_state_financial_model($GET,$table){
+        $sql="SELECT * FROM $table WHERE id_user = :id_user AND DATE_FORMAT(date, '%Y-%m') = :date";
+        $stmt = Connection::connect()->prepare($sql);
+        $stmt->bindParam(':id_user', $GET["equalTo"]);
+        $stmt->bindParam(':date', $GET["dateTo"]);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_CLASS);
+    }
+
     static public function getDataWithJoin($table, $select, $linkTo, $equalTo){
         $sql = "SELECT * FROM $table JOIN all_menus ON items_menu.id = all_menus.contenido WHERE all_menus.menu = :menu";
         $stmt = Connection::connect()->prepare($sql);
@@ -43,28 +52,6 @@ class GetModel{
     }
     
     
-
-    static public function getInventoryForDateModel($table,$linkTo,$equalTo){
-        $linkToArray = explode(",",$linkTo);
-        $equalToArray = explode("_",$equalTo);
-        $linkToText = "";
-        if (count($linkToArray)>1){
-            foreach($linkToArray as $key => $value){
-                if($key > 0){
-                    $linkToText .= "AND ".$value." = :".$value." ";                }
-            }
-        }                
-        $sql = "SELECT * FROM $table WHERE DATE($linkToArray[0]) = :$linkToArray[0] $linkToText";
-        $stmt = Connection::connect()->prepare($sql);
-        foreach($linkToArray as $key => $value){
-            $stmt -> bindParam(":".$value,$equalToArray[$key],PDO::PARAM_STR);
-        }
-
-        $stmt -> execute();
-        return $stmt -> fetchAll(PDO::FETCH_CLASS);
-    }
-
-
 
 }
     

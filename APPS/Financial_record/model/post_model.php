@@ -4,14 +4,15 @@
 require_once "alDiaSettings/Connection.php";
 class PostModel{
     //Creación de Usuario nuevo 
-    static public function record_income_model($data,$table){   
+    static public function record_income_or_expense_model($data){   
+        $table = $data["table"];
         $sql = "INSERT INTO $table (id_user, date, amount, description, category) VALUES (:id_user, :date, :amount, :description, :category)";
         $stmt = Connection::connect()->prepare($sql);
-        $stmt->bindParam(':id_user', $date);
-        $stmt->bindParam(':date', $date);
-        $stmt->bindParam(':amount', $date);
-        $stmt->bindParam(':description', $date);
-        $stmt->bindParam(':category', $date);
+        $stmt->bindParam(':id_user', $data["id_user"]);
+        $stmt->bindParam(':date', $data["date"]);
+        $stmt->bindParam(':amount', $data["amount"]);
+        $stmt->bindParam(':description', $data["description"]);
+        $stmt->bindParam(':category', $data["category"]);
         $stmt->execute();
         $rowCount = $stmt->rowCount();
         if(isset($rowCount)){

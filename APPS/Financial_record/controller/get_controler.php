@@ -11,6 +11,28 @@ class GetController{
 
 
     }
+    static public function getData_state_financial_controller($GET){
+        $expenses = GetModel::getData_state_financial_model($GET,"expenses");
+        $income = GetModel::getData_state_financial_model($GET,"income");
+        if (!empty($expenses) || !empty($income) ) {
+            $expensesArray = array("expenses"=>$expenses);
+            $incomesArray = array("income"=>$income);
+            $response = [];
+            if (!empty($expenses)) {
+                array_push($response, $expensesArray);
+            }
+            if(!empty($income)){
+                array_push($response, $incomesArray);
+            }  
+            $return = new GetController();
+            $return -> fncResponse($response);
+        }else{
+            $return = new GetController();
+            $return -> fncResponse();
+        }
+
+    }
+
     static public function getDataFilter($table,$select,$linkTo,$equalTo){
         $response = GetModel::getDataFilter($table,$select,$linkTo,$equalTo);
         $return = new GetController();
@@ -66,7 +88,7 @@ class GetController{
 
     
     //Respuesta del controlador:
-    public function fncResponse($response, $consultUsers=false){
+    public function fncResponse($response = "", $consultUsers=false){
         if (!empty($response)&&$consultUsers ===false) {
             $json = array(
                 'status' => 200,

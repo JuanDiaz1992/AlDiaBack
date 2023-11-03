@@ -3,7 +3,8 @@
 require_once "APPS/Financial_record/model/post_model.php";
 
 class PostController{
-    static public function record_income_controller($data){
+    static public function record_income_or_expense_controller($data){
+        error_log(print_r($data, true));
         if (
             $data['id_user'] == "" ||
             $data['date'] == "" ||
@@ -11,27 +12,22 @@ class PostController{
             $data['description'] == "" ||
             $data['category'] == ""
             ){
-                PostController::fncResponse(409,"",'Debes completar todos los campos');
+                PostController::fncResponse(409,'','Debes completar todos los campos');
                 exit;
             }
-        else if(
-            !preg_match('/^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0-2])\/\d{4}$/', $data['date']) || //En este if se validan caracteres especiales
+        if(
+            !preg_match('/^\d{4}-\d{2}-\d{2}$/', $data['date']) || //En este if se validan caracteres especiales
             !preg_match('/^\d+(\.\d{1,2})?$/', $data['amount']) ||
-            !preg_match('/^[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ]+$/', $data['description'])){
+            !preg_match('/^[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ\s]+$/', $data['description'])){
                 PostController::fncResponse(409,'','Los datos ingresados no son correctos, valide la información e intentelo de nuevo');
                 exit;
             }
-        else{
-            $table = "income";
-            $response = PostModel::record_income_model($data,$table,'Registro ingresado correctamente');
-            PostController::fncResponse($response);
-        }
-
+            $response = PostModel::record_income_or_expense_model($data);
+            PostController::fncResponse($response,'','Registro ingresado correctamente');
     }
 
-
     //Respuesta del controlador:
-    public function fncResponse($status,$response = "",$message = ""){ //Metodo usado para dar respuestas básicas
+    static public function fncResponse($status,$response = "",$message = ""){ //Metodo usado para dar respuestas básicas
         if ($status === 200) {
             $json = array(
                 'status' => $status,

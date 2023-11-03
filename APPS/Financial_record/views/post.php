@@ -9,7 +9,7 @@ if(isset($tokenDecode)){
     session_id($tokenDecode->id);
     session_start();
     if(isset($data["record_income"])){
-        $response -> record_income_controller($data);
+        $response -> record_income_or_expense_controller($data);
     }
 }else{
     badResponse();
