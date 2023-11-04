@@ -650,3 +650,1020 @@
 )
 
 [03-Nov-2023 08:58:16 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 00:46:40 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [id_profile] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/foto1.jpg
+            [fecha_nacimiento] => 
+            [departamento] => 
+            [municipio] => 
+            [direccion] => 
+            [estado_civil] => 
+            [telefono] => 
+            [correo] => juannavegante2010@gmail.com
+            [ocupacion] => 
+            [tratamiento_datos] => 
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 00:47:39 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 00:47:40 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [id_profile] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/foto1.jpg
+            [fecha_nacimiento] => 
+            [departamento] => 
+            [municipio] => 
+            [direccion] => 
+            [estado_civil] => 
+            [telefono] => 
+            [correo] => juannavegante2010@gmail.com
+            [ocupacion] => 
+            [tratamiento_datos] => 
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 01:31:58 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 01:32:01 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 36
+            [user] => leidy1993
+            [password] => $2y$10$6IoSV6k64ADY41z5BIH1FuCw1h/vocEmHd/1U8FnYtEaWJaNQTZmS
+            [perfil] => 46
+            [type_user] => 2
+            [id_profile] => 46
+            [primer_nombre] => Leidy
+            [segundo_nombre] => Vanessa
+            [primer_apellido] => Largo
+            [segundo_apellido] => Alvarez
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-09
+            [departamento] => Risaralda
+            [municipio] => La Virginia
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo2@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 01:32:15 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 01:33:48 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 36
+            [user] => leidy1993
+            [password] => $2y$10$6IoSV6k64ADY41z5BIH1FuCw1h/vocEmHd/1U8FnYtEaWJaNQTZmS
+            [perfil] => 46
+            [type_user] => 2
+            [id_profile] => 46
+            [primer_nombre] => Leidy
+            [segundo_nombre] => Vanessa
+            [primer_apellido] => Largo
+            [segundo_apellido] => Alvarez
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-09
+            [departamento] => Risaralda
+            [municipio] => La Virginia
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo2@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 01:40:09 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 01:40:13 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 38
+            [user] => pepinillo
+            [password] => $2y$10$jBe2J1Bwrnuvy4WTG/7skO.J5GneceCCIQcA40MEwj.1.N4l7MOX6
+            [perfil] => 48
+            [type_user] => 2
+            [id_profile] => 48
+            [primer_nombre] => Pepinillo
+            [segundo_nombre] => Perez
+            [primer_apellido] => Martinez
+            [segundo_apellido] => Castellanos
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-30
+            [departamento] => Arauca
+            [municipio] => Cravo Norte
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 01:43:28 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 01:43:29 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 38
+            [user] => pepinillo
+            [password] => $2y$10$jBe2J1Bwrnuvy4WTG/7skO.J5GneceCCIQcA40MEwj.1.N4l7MOX6
+            [perfil] => 48
+            [type_user] => 2
+            [id_profile] => 48
+            [primer_nombre] => Pepinillo
+            [segundo_nombre] => Perez
+            [primer_apellido] => Martinez
+            [segundo_apellido] => Castellanos
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-30
+            [departamento] => Arauca
+            [municipio] => Cravo Norte
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 01:56:37 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 01:56:41 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 36
+            [user] => leidy1993
+            [password] => $2y$10$6IoSV6k64ADY41z5BIH1FuCw1h/vocEmHd/1U8FnYtEaWJaNQTZmS
+            [perfil] => 46
+            [type_user] => 2
+            [id_profile] => 46
+            [primer_nombre] => Leidy
+            [segundo_nombre] => Vanessa
+            [primer_apellido] => Largo
+            [segundo_apellido] => Alvarez
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-09
+            [departamento] => Risaralda
+            [municipio] => La Virginia
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo2@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 01:56:46 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 01:56:48 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [id_profile] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/foto1.jpg
+            [fecha_nacimiento] => 
+            [departamento] => 
+            [municipio] => 
+            [direccion] => 
+            [estado_civil] => 
+            [telefono] => 
+            [correo] => juannavegante2010@gmail.com
+            [ocupacion] => 
+            [tratamiento_datos] => 
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 01:56:53 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 01:56:57 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 36
+            [user] => leidy1993
+            [password] => $2y$10$6IoSV6k64ADY41z5BIH1FuCw1h/vocEmHd/1U8FnYtEaWJaNQTZmS
+            [perfil] => 46
+            [type_user] => 2
+            [id_profile] => 46
+            [primer_nombre] => Leidy
+            [segundo_nombre] => Vanessa
+            [primer_apellido] => Largo
+            [segundo_apellido] => Alvarez
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-09
+            [departamento] => Risaralda
+            [municipio] => La Virginia
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo2@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 01:57:17 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 01:57:18 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 36
+            [user] => leidy1993
+            [password] => $2y$10$6IoSV6k64ADY41z5BIH1FuCw1h/vocEmHd/1U8FnYtEaWJaNQTZmS
+            [perfil] => 46
+            [type_user] => 2
+            [id_profile] => 46
+            [primer_nombre] => Leidy
+            [segundo_nombre] => Vanessa
+            [primer_apellido] => Largo
+            [segundo_apellido] => Alvarez
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-09
+            [departamento] => Risaralda
+            [municipio] => La Virginia
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo2@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:06:26 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:06:29 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [id_profile] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/foto1.jpg
+            [fecha_nacimiento] => 
+            [departamento] => 
+            [municipio] => 
+            [direccion] => 
+            [estado_civil] => 
+            [telefono] => 
+            [correo] => juannavegante2010@gmail.com
+            [ocupacion] => 
+            [tratamiento_datos] => 
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:06:33 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:06:37 Europe/Berlin] Array
+(
+)
+
+[04-Nov-2023 02:06:40 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 38
+            [user] => pepinillo
+            [password] => $2y$10$jBe2J1Bwrnuvy4WTG/7skO.J5GneceCCIQcA40MEwj.1.N4l7MOX6
+            [perfil] => 48
+            [type_user] => 2
+            [id_profile] => 48
+            [primer_nombre] => Pepinillo
+            [segundo_nombre] => Perez
+            [primer_apellido] => Martinez
+            [segundo_apellido] => Castellanos
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-30
+            [departamento] => Arauca
+            [municipio] => Cravo Norte
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:11:46 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:11:49 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [id_profile] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/foto1.jpg
+            [fecha_nacimiento] => 
+            [departamento] => 
+            [municipio] => 
+            [direccion] => 
+            [estado_civil] => 
+            [telefono] => 
+            [correo] => juannavegante2010@gmail.com
+            [ocupacion] => 
+            [tratamiento_datos] => 
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:13:16 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:13:20 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 36
+            [user] => leidy1993
+            [password] => $2y$10$6IoSV6k64ADY41z5BIH1FuCw1h/vocEmHd/1U8FnYtEaWJaNQTZmS
+            [perfil] => 46
+            [type_user] => 2
+            [id_profile] => 46
+            [primer_nombre] => Leidy
+            [segundo_nombre] => Vanessa
+            [primer_apellido] => Largo
+            [segundo_apellido] => Alvarez
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-09
+            [departamento] => Risaralda
+            [municipio] => La Virginia
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo2@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:13:40 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:13:44 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [id_profile] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/foto1.jpg
+            [fecha_nacimiento] => 
+            [departamento] => 
+            [municipio] => 
+            [direccion] => 
+            [estado_civil] => 
+            [telefono] => 
+            [correo] => juannavegante2010@gmail.com
+            [ocupacion] => 
+            [tratamiento_datos] => 
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:21:40 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:21:43 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 36
+            [user] => leidy1993
+            [password] => $2y$10$6IoSV6k64ADY41z5BIH1FuCw1h/vocEmHd/1U8FnYtEaWJaNQTZmS
+            [perfil] => 46
+            [type_user] => 2
+            [id_profile] => 46
+            [primer_nombre] => Leidy
+            [segundo_nombre] => Vanessa
+            [primer_apellido] => Largo
+            [segundo_apellido] => Alvarez
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-09
+            [departamento] => Risaralda
+            [municipio] => La Virginia
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo2@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:22:13 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:22:14 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 36
+            [user] => leidy1993
+            [password] => $2y$10$6IoSV6k64ADY41z5BIH1FuCw1h/vocEmHd/1U8FnYtEaWJaNQTZmS
+            [perfil] => 46
+            [type_user] => 2
+            [id_profile] => 46
+            [primer_nombre] => Leidy
+            [segundo_nombre] => Vanessa
+            [primer_apellido] => Largo
+            [segundo_apellido] => Alvarez
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-09
+            [departamento] => Risaralda
+            [municipio] => La Virginia
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo2@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:22:29 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:22:30 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 36
+            [user] => leidy1993
+            [password] => $2y$10$6IoSV6k64ADY41z5BIH1FuCw1h/vocEmHd/1U8FnYtEaWJaNQTZmS
+            [perfil] => 46
+            [type_user] => 2
+            [id_profile] => 46
+            [primer_nombre] => Leidy
+            [segundo_nombre] => Vanessa
+            [primer_apellido] => Largo
+            [segundo_apellido] => Alvarez
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-09
+            [departamento] => Risaralda
+            [municipio] => La Virginia
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo2@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:23:57 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:24:00 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [id_profile] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/foto1.jpg
+            [fecha_nacimiento] => 
+            [departamento] => 
+            [municipio] => 
+            [direccion] => 
+            [estado_civil] => 
+            [telefono] => 
+            [correo] => juannavegante2010@gmail.com
+            [ocupacion] => 
+            [tratamiento_datos] => 
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:24:54 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:24:56 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 36
+            [user] => leidy1993
+            [password] => $2y$10$6IoSV6k64ADY41z5BIH1FuCw1h/vocEmHd/1U8FnYtEaWJaNQTZmS
+            [perfil] => 46
+            [type_user] => 2
+            [id_profile] => 46
+            [primer_nombre] => Leidy
+            [segundo_nombre] => Vanessa
+            [primer_apellido] => Largo
+            [segundo_apellido] => Alvarez
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-09
+            [departamento] => Risaralda
+            [municipio] => La Virginia
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo2@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:25:00 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:25:03 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 38
+            [user] => pepinillo
+            [password] => $2y$10$jBe2J1Bwrnuvy4WTG/7skO.J5GneceCCIQcA40MEwj.1.N4l7MOX6
+            [perfil] => 48
+            [type_user] => 2
+            [id_profile] => 48
+            [primer_nombre] => Pepinillo
+            [segundo_nombre] => Perez
+            [primer_apellido] => Martinez
+            [segundo_apellido] => Castellanos
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-30
+            [departamento] => Arauca
+            [municipio] => Cravo Norte
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:25:05 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:25:08 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [id_profile] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/foto1.jpg
+            [fecha_nacimiento] => 
+            [departamento] => 
+            [municipio] => 
+            [direccion] => 
+            [estado_civil] => 
+            [telefono] => 
+            [correo] => juannavegante2010@gmail.com
+            [ocupacion] => 
+            [tratamiento_datos] => 
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:25:32 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:25:33 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [id_profile] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/foto1.jpg
+            [fecha_nacimiento] => 
+            [departamento] => 
+            [municipio] => 
+            [direccion] => 
+            [estado_civil] => 
+            [telefono] => 
+            [correo] => juannavegante2010@gmail.com
+            [ocupacion] => 
+            [tratamiento_datos] => 
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:25:42 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:25:43 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [id_profile] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/foto1.jpg
+            [fecha_nacimiento] => 
+            [departamento] => 
+            [municipio] => 
+            [direccion] => 
+            [estado_civil] => 
+            [telefono] => 
+            [correo] => juannavegante2010@gmail.com
+            [ocupacion] => 
+            [tratamiento_datos] => 
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 02:39:47 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 02:39:49 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 38
+            [user] => pepinillo
+            [password] => $2y$10$jBe2J1Bwrnuvy4WTG/7skO.J5GneceCCIQcA40MEwj.1.N4l7MOX6
+            [perfil] => 48
+            [type_user] => 2
+            [id_profile] => 48
+            [primer_nombre] => Pepinillo
+            [segundo_nombre] => Perez
+            [primer_apellido] => Martinez
+            [segundo_apellido] => Castellanos
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-30
+            [departamento] => Arauca
+            [municipio] => Cravo Norte
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 03:54:39 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 03:54:43 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 36
+            [user] => leidy1993
+            [password] => $2y$10$6IoSV6k64ADY41z5BIH1FuCw1h/vocEmHd/1U8FnYtEaWJaNQTZmS
+            [perfil] => 46
+            [type_user] => 2
+            [id_profile] => 46
+            [primer_nombre] => Leidy
+            [segundo_nombre] => Vanessa
+            [primer_apellido] => Largo
+            [segundo_apellido] => Alvarez
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-09
+            [departamento] => Risaralda
+            [municipio] => La Virginia
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo2@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 03:54:50 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 03:54:54 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [id_profile] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/foto1.jpg
+            [fecha_nacimiento] => 
+            [departamento] => 
+            [municipio] => 
+            [direccion] => 
+            [estado_civil] => 
+            [telefono] => 
+            [correo] => juannavegante2010@gmail.com
+            [ocupacion] => 
+            [tratamiento_datos] => 
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 03:55:01 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 03:55:37 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 38
+            [user] => pepinillo
+            [password] => $2y$10$jBe2J1Bwrnuvy4WTG/7skO.J5GneceCCIQcA40MEwj.1.N4l7MOX6
+            [perfil] => 48
+            [type_user] => 2
+            [id_profile] => 48
+            [primer_nombre] => Pepinillo
+            [segundo_nombre] => Perez
+            [primer_apellido] => Martinez
+            [segundo_apellido] => Castellanos
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-30
+            [departamento] => Arauca
+            [municipio] => Cravo Norte
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 04:04:57 Europe/Berlin] Array
+(
+    [table] => income
+    [id_user] => 38
+    [date] => 2023-11-03
+    [amount] => 2500000
+    [description] => Quincena
+    [category] => 1
+    [record_income] => 1
+)
+
+[04-Nov-2023 04:14:41 Europe/Berlin] Array
+(
+    [table] => expenses
+    [id_user] => 38
+    [date] => 2023-10-31
+    [amount] => 3000000000
+    [description] => Finca en el poblado
+    [category] => 1
+    [record_income] => 1
+)
+
+[04-Nov-2023 04:38:40 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 04:38:43 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 36
+            [user] => leidy1993
+            [password] => $2y$10$6IoSV6k64ADY41z5BIH1FuCw1h/vocEmHd/1U8FnYtEaWJaNQTZmS
+            [perfil] => 46
+            [type_user] => 2
+            [id_profile] => 46
+            [primer_nombre] => Leidy
+            [segundo_nombre] => Vanessa
+            [primer_apellido] => Largo
+            [segundo_apellido] => Alvarez
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-09
+            [departamento] => Risaralda
+            [municipio] => La Virginia
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo2@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 04:39:13 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 04:39:16 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [user] => admin
+            [password] => $2y$10$Ist28p6.JTw4R8iky7p4FOUq28IP73vwOCc8I04nZEJu4bA7ZScV6
+            [perfil] => 1
+            [type_user] => 1
+            [id_profile] => 1
+            [primer_nombre] => Juan
+            [segundo_nombre] => Camilo
+            [primer_apellido] => Díaz
+            [segundo_apellido] => Valencia
+            [tipo_documento] => 1
+            [numero_documento] => 1040740765
+            [foto_perfil] => files/user_profile/admin/foto1.jpg
+            [fecha_nacimiento] => 
+            [departamento] => 
+            [municipio] => 
+            [direccion] => 
+            [estado_civil] => 
+            [telefono] => 
+            [correo] => juannavegante2010@gmail.com
+            [ocupacion] => 
+            [tratamiento_datos] => 
+            [exogena] => 
+        )
+
+)
+
+[04-Nov-2023 04:44:12 Europe/Berlin] Session Destroy From Delete
+[04-Nov-2023 04:44:16 Europe/Berlin] Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 38
+            [user] => pepinillo
+            [password] => $2y$10$jBe2J1Bwrnuvy4WTG/7skO.J5GneceCCIQcA40MEwj.1.N4l7MOX6
+            [perfil] => 48
+            [type_user] => 2
+            [id_profile] => 48
+            [primer_nombre] => Pepinillo
+            [segundo_nombre] => Perez
+            [primer_apellido] => Martinez
+            [segundo_apellido] => Castellanos
+            [tipo_documento] => 1
+            [numero_documento] => 1040740766
+            [foto_perfil] => 
+            [fecha_nacimiento] => 2005-10-30
+            [departamento] => Arauca
+            [municipio] => Cravo Norte
+            [direccion] => MZ 14 CS 1 CUBA 2500
+            [estado_civil] => 1
+            [telefono] => 3125739690
+            [correo] => correo@correo.com
+            [ocupacion] => Independiente
+            [tratamiento_datos] => 1
+            [exogena] => 
+        )
+
+)
+

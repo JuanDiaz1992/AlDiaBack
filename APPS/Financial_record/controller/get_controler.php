@@ -99,7 +99,7 @@ class GetController{
         }else{
             $json = array(
                 'status' => 404,
-                'results' => 'Not Found'
+                'results' => []
             );
         }
         echo json_encode($json,http_response_code($json['status']));
