@@ -42,6 +42,15 @@ class GetModel{
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_CLASS);
     }
+    static public function getData_state_financial_model_join($GET,$table,$category){
+        $sql="SELECT $table.*,$category.name_category AS name_category FROM $table JOIN $category ON $table.category = $category.id WHERE id_user = :id_user AND DATE_FORMAT(date, '%Y-%m') = :date";
+        $stmt = Connection::connect()->prepare($sql);
+        $stmt->bindParam(':id_user', $GET["equalTo"]);
+        $stmt->bindParam(':date', $GET["dateTo"]);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_CLASS);
+    }
+    
 
     static public function getDataWithJoin($table, $select, $linkTo, $equalTo){
         $sql = "SELECT * FROM $table JOIN all_menus ON items_menu.id = all_menus.contenido WHERE all_menus.menu = :menu";

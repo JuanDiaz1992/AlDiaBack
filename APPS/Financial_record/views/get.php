@@ -8,6 +8,8 @@ if(isset($tokenDecode)){
     session_start();
     if($table === "setStateFinancial" ){
         $response->getData_state_financial_controller($_GET);
+    }else if($table === "expensesAndIncome" ){
+        $response->getDataFilterExpensesAndIncome($_GET); 
     }else{
         $response->getData($table,$select); 
     }

@@ -32,6 +32,13 @@ class GetController{
         }
 
     }
+    static public function getDataFilterExpensesAndIncome($GET){
+        error_log($GET["tableSelected"]);
+        $response = GetModel::getData_state_financial_model_join($GET,$GET["tableSelected"],"expenses_category");
+        $return = new GetController();
+        $return -> fncResponse($response);
+    }
+
 
     static public function getDataFilter($table,$select,$linkTo,$equalTo){
         $response = GetModel::getDataFilter($table,$select,$linkTo,$equalTo);
