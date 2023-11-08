@@ -1,2 +1,2 @@
-/Error/php_error_log
+error_log/
 .env
