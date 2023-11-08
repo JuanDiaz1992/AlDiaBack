@@ -30,8 +30,8 @@
         }
 
         static public function decodeToken($token){
-            $secretCode = '3aw58420';
-            $classDecode = 'HS256';
+            $secretCode = $_ENV["SECRET_CODE"];
+            $classDecode = $_ENV["CLASS_DECODE"];
 
             try {
                 $decoded = JWT::decode($token,new Key($secretCode, 'HS256'));

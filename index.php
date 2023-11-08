@@ -1,6 +1,11 @@
 <?php
-
 require_once "alDiaSettings/cors.php";
+
+
+require "vendor/autoload.php";
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+/*El bloque de código anterior es el encargado de traer las variables de entorno*/
 
 
 //Manejo de errores

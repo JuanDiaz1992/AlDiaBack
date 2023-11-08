@@ -3,9 +3,9 @@ class Connection{
     //Información de la base de datos
     static public function infoDatabase(){
         $infoDB = array(
-            "database" => "al_dia_bd_mysql",
-            "user"=> "administrador",
-            "pass" => "3118514322s"
+            "database" => $_ENV["DATA_BASE"],
+            "user"=> $_ENV["USER_DATA_BASE"],
+            "pass" => $_ENV["PASSWORD_DATA_BASE"]
         );
         return $infoDB;
     }
