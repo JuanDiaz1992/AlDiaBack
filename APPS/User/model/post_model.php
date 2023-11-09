@@ -112,7 +112,6 @@ class PostModel{
         $stmt->bindParam(":user", $user, PDO::PARAM_STR);
         $stmt->execute();
         $result = $stmt->fetchAll(PDO::FETCH_CLASS);
-        error_log(print_r($result, true));
         // Verificar si se encontró un usuario con el nombre proporcionado
         if (count($result) > 0) {
             $hashedPassword = $result[0]->password;

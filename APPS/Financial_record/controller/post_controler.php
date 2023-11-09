@@ -4,7 +4,6 @@ require_once "APPS/Financial_record/model/post_model.php";
 
 class PostController{
     static public function record_income_or_expense_controller($data){
-        error_log(print_r($data, true));
         if (
             $data['id_user'] == "" ||
             $data['date'] == "" ||

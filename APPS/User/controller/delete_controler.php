@@ -14,7 +14,6 @@ class DeleteController{
     static public function logout($id_session){
         session_destroy();
         session_unset();
-        error_log("Session Destroy From Delete");
         $json = array(
             'status' => 200,
             'is_logged_in' => false,

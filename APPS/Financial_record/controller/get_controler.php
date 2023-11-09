@@ -33,7 +33,6 @@ class GetController{
 
     }
     static public function getDataFilterExpensesAndIncome($GET){
-        error_log($GET["tableSelected"]);
         $response = GetModel::getData_state_financial_model_join($GET,$GET["tableSelected"],$GET["category_selected"]);
         $return = new GetController();
         $return -> fncResponse($response);
@@ -80,7 +79,6 @@ class GetController{
         $orderedResponse = array_merge($especialities, $soups, $beginning, $meats, $drinks);
         $_SESSION["menu_temp"] = $orderedResponse;
         // Registra el array ordenado en el archivo de registro de errores
-        // error_log(print_r($orderedResponse, true));
         $return = new GetController();
         $return -> fncResponse($orderedResponse);
     }

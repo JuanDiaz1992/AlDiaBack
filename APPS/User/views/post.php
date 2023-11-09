@@ -37,7 +37,7 @@ if(isset($data["login_request"])){
             $data['password'],
             $data['confirmPassword'],
         );
-        error_log("Solicitud Recibida");
+
     }
     
     
