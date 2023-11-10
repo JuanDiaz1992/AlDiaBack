@@ -8,28 +8,12 @@ class GetController{
         $response = GetModel::getData($table,$select);
         $return = new GetController();
         $return -> fncResponse($response);
-
-
     }
-    static public function getDataFilter($table,$select,$linkTo,$equalTo){
-        $response = GetModel::getDataFilter($table,$select,$linkTo,$equalTo);
+    static public function getDataProfileController($GET){
+        $response = GetModel::getDataProfileModel($GET,"users");
         $return = new GetController();
         $return -> fncResponse($response);
-
-
-
     }
-
-    static public function getAllUsers($table,$select){
-        
-        $response = GetModel::getAllUsers($table,$select);
-        $return = new GetController();
-        $consultUsers = true;
-
-        $return -> fncResponse($response,$consultUsers);
-        
-    }
-
 
     static public function validateUSer($tokenOK){
         $return = new GetController();

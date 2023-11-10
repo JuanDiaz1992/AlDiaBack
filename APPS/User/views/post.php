@@ -3,7 +3,6 @@
 
 require_once "APPS/User/controller/post_controler.php";
 $response = new PostController();
-
 if(isset($data["login_request"])){
     $table = "users";
     $response -> postDataconsultUser($table, $data["username"], $data["password"]);
@@ -17,7 +16,6 @@ if(isset($data["login_request"])){
     session_start();
     if($token && $_SESSION["type_user"] === 'Admin'){
         $img = isset($_FILES['photo'])? $_FILES['photo'] : '';
-    
         $response ->postControllerModify(
             $_POST['id'],
             $_POST['name'],
