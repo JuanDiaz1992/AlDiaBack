@@ -35,7 +35,12 @@ class GetModel{
     }
 
     static public function getData_state_financial_model($GET,$table){
-        $sql="SELECT * FROM $table WHERE id_user = :id_user AND DATE_FORMAT(date, '%Y-%m') = :date";
+        if (strlen($GET["dateTo"])===4) {
+            $sql="SELECT * FROM $table WHERE id_user = :id_user AND DATE_FORMAT(date, '%Y') = :date";
+        }else{
+            $sql="SELECT * FROM $table WHERE id_user = :id_user AND DATE_FORMAT(date, '%Y-%m') = :date";
+        }
+        
         $stmt = Connection::connect()->prepare($sql);
         $stmt->bindParam(':id_user', $GET["equalTo"]);
         $stmt->bindParam(':date', $GET["dateTo"]);

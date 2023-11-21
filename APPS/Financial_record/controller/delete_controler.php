@@ -1,14 +1,13 @@
 <?php
 
-require_once "APPS/Menu_management/model/delete_model.php";
+require_once "APPS/Financial_record/model/delete_model.php";
 
 
 class DeleteController{
 
-    static public function deleteItemFromMenuBd($table,$id){
-        $response = DeleteModel::deleteItemFromMenuBdModel($table,$id);
+    static public function deleteItemController($data){
+        $response = DeleteModel::deleteItemModel($data,$data["table"]);
         $return = new DeleteController();
-        $return -> deleteIfromSesion($id);
         $return -> fncResponse($response);
     }
 

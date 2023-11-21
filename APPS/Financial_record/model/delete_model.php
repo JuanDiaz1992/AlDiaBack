@@ -1,17 +1,16 @@
 <?php
 
 
-require_once "gestionRestauranteSettings/Connection.php";
+require_once "alDiaSettings/Connection.php";
 class DeleteModel{
 
     //Metodo para eliminar usuario de la bd
-    static public function deleteItemFromMenuBdModel($table,$id){
+    static public function deleteItemModel($data,$table){
         $sql = "DELETE FROM $table WHERE id = :id ";
         $stmt = Connection::connect()->prepare($sql);
-        $stmt->bindParam(":id", $id, PDO::PARAM_STR);
+        $stmt->bindParam(":id", $data["id"], PDO::PARAM_STR);
         $stmt->execute();
         $rowCount = $stmt->rowCount();
-
         if ($rowCount > 0) {
             return 200;
         } else {
