@@ -110,36 +110,25 @@ class PostController{
 
 
     }
-    static public function postControllerModify($id, $name, $photo, $type_user, $userName){
-        if (
-            !preg_match('/^[a-zA-Z\s]+$/', $name) ||
-            !preg_match('/^[a-zA-Z0-9]+$/', $type_user)) {
+    static public function postControllerModifyPhoto($id,$photo,$userName){     
+            if(isset($photo['name'])){ //Si el formulario incluye una imagen, la agrega, sino se pone la img por defecto
+                $carpetaDestino = "files/user_profile/" . $userName;
+                $nombreArchivo = $photo['name'];
+                $rutaArchivo = $carpetaDestino . DIRECTORY_SEPARATOR . $nombreArchivo;
+                if (!is_dir($carpetaDestino)) {
+                    mkdir($carpetaDestino, 0777, true);
+                }
+                $rutaArchivoRelativa = 'files/user_profile/' . $userName .'/'. $nombreArchivo;
+                move_uploaded_file($photo['tmp_name'], $rutaArchivo);
+            }else{
                 $json = array(
                     'status' => 404,
-                    'is_logged_in' => false,
-                    'message' => 'Los datos no pueden contener caracteres especiales'
+                    'message' => 'Error al cargar la imagen'
                 );
                 echo json_encode($json, http_response_code($json['status']));
                 exit;
             }
-           
-            if(isset($photo['name'])){ //Si el formulario incluye una imagen, la agrega, sino se pone la img por defecto
-                $carpetaDestino = __DIR__ . "../../../../files/user_profile/" . $userName;
-                $nombreArchivo = $photo['name'];
-                $rutaArchivo = $carpetaDestino . DIRECTORY_SEPARATOR . $nombreArchivo;
-                
-                if (!is_dir($carpetaDestino)) {
-                    mkdir($carpetaDestino, 0777, true);
-                }
-                
-                $rutaArchivoRelativa = 'files/user_profile/' . $userName .'/'. $nombreArchivo;
-                
-                move_uploaded_file($photo['tmp_name'], $rutaArchivo);
-            }else{
-                $rutaArchivoRelativa = false;
-            }
-
-            $response = PostModel::PostDataModify($id, $name, $rutaArchivoRelativa, $type_user);
+            $response = PostModel::PostDataModifyPhoto($id,$rutaArchivoRelativa);
             $return = new PostController();
             if ($response == 409){
                 $return -> fncResponse($response,409);

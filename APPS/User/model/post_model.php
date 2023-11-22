@@ -132,18 +132,14 @@ class PostModel{
 
 
 
-    static public function PostDataModify($id,$name,$photo,$type_user)
-    {   if($photo){
-            $sql = "UPDATE profile_user SET photo = :photo, name = :name, type_user = :type_user WHERE id = :id";
-            $stmt = Connection::connect()->prepare($sql);
-            $stmt->bindParam(":photo", $photo, PDO::PARAM_STR);
-        }else{
-            $sql = "UPDATE profile_user SET name = :name, type_user = :type_user WHERE id = :id";
-            $stmt = Connection::connect()->prepare($sql);
-        }
+    static public function PostDataModifyPhoto($id,$photo){   
+        $sql = "UPDATE perfil 
+        JOIN users ON perfil.id_profile = users.perfil
+        SET foto_perfil = :foto_perfil
+        WHERE users.id = :id";
+        $stmt = Connection::connect()->prepare($sql);
         $stmt->bindParam(":id", $id, PDO::PARAM_STR);
-        $stmt->bindParam(":name", $name, PDO::PARAM_STR);
-        $stmt->bindParam(":type_user", $type_user, PDO::PARAM_STR);
+        $stmt->bindParam(":foto_perfil", $photo, PDO::PARAM_STR);
         $stmt->execute();
         $rowCount = $stmt->rowCount();
         if ($rowCount > 0){

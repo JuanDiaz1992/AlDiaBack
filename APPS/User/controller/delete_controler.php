@@ -8,8 +8,6 @@ class DeleteController{
         $response = DeleteModel::deleteData($table,$select);
         $return = new DeleteController();
         $return -> fncResponse($response);
-
-
     }
     static public function logout($id_session){
         session_destroy();
@@ -20,6 +18,12 @@ class DeleteController{
             'message'=>'Usuario deslogueado'
         );
         echo json_encode($json,http_response_code($json['status']));
+    }
+    static public function deleteUserPhotoController($id){
+        $rutaArchivoRelativa = null;
+        $response = DeleteModel::deleteUserPhotoModel($id,$rutaArchivoRelativa);
+        $return = new DeleteController();
+        $return -> fncResponse($response);
     }
 
     static public function deleteUserController($id){

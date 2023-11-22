@@ -9,7 +9,6 @@ if(isset($tokenDecode)){
     if($table == "validateSession" ) {
         $response -> validateUSer($tokenDecode);
     }elseif($table === "profile"){
-        error_log(print_r($_GET,true));
         $response->getDataProfileController($_GET);
     }
     else{

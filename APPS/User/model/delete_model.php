@@ -17,13 +17,28 @@ class DeleteModel{
         $stmt->bindParam(":id", $id, PDO::PARAM_STR);
         $stmt->execute();
         $rowCount = $stmt->rowCount();
-
         if ($rowCount > 0) {
             return 200;
         } else {
             return 404;
         }
         
+    }
+    static public function deleteUserPhotoModel($id,$blankRoute){
+        $sql = "UPDATE perfil 
+        JOIN users ON perfil.id_profile = users.perfil
+        SET foto_perfil = :foto_perfil
+        WHERE users.id = :id";
+        $stmt = Connection::connect()->prepare($sql);
+        $stmt->bindParam(":id", $id, PDO::PARAM_STR);
+        $stmt->bindParam(":foto_perfil", $blankRoute, PDO::PARAM_STR);
+        $stmt->execute();
+        $rowCount = $stmt->rowCount();
+        if ($rowCount > 0) {
+            return 200;
+        } else {
+            return 404;
+        }
     }
 }
 

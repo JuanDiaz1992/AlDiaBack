@@ -1,33 +1,9 @@
-[21-Nov-2023 08:16:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fncResponse() on int in F:\xampp\htdocs\al_dia_backend\APPS\Financial_record\controller\delete_controler.php:11
-Stack trace:
-#0 F:\xampp\htdocs\al_dia_backend\APPS\Financial_record\views\delete.php(10): DeleteController::deleteItemController(Array)
-#1 F:\xampp\htdocs\al_dia_backend\Routes\services\delete.php(36): require_once('F:\\xampp\\htdocs...')
-#2 F:\xampp\htdocs\al_dia_backend\Routes\routes.php(30): include('F:\\xampp\\htdocs...')
-#3 F:\xampp\htdocs\al_dia_backend\alDiaSettings\routes_controller.php(7): include('F:\\xampp\\htdocs...')
-#4 F:\xampp\htdocs\al_dia_backend\index.php(29): RoutesController->index()
-#5 {main}
-  thrown in F:\xampp\htdocs\al_dia_backend\APPS\Financial_record\controller\delete_controler.php on line 11
-[21-Nov-2023 08:50:16 Europe/Berlin] Array
-(
-    [linkTo] => id
-    [equalTo] => 38
-)
-
-[21-Nov-2023 08:50:16 Europe/Berlin] Array
-(
-    [linkTo] => id
-    [equalTo] => 38
-)
-
-[21-Nov-2023 08:52:47 Europe/Berlin] Array
-(
-    [linkTo] => id
-    [equalTo] => 38
-)
-
-[21-Nov-2023 08:52:47 Europe/Berlin] Array
-(
-    [linkTo] => id
-    [equalTo] => 38
-)
-
+[22-Nov-2023 07:30:14 Europe/Berlin] PHP Warning:  Undefined variable $json in F:\xampp\htdocs\al_dia_backend\APPS\User\controller\delete_controler.php on line 50
+[22-Nov-2023 07:30:14 Europe/Berlin] PHP Warning:  Undefined variable $json in F:\xampp\htdocs\al_dia_backend\APPS\User\controller\delete_controler.php on line 50
+[22-Nov-2023 07:30:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in F:\xampp\htdocs\al_dia_backend\APPS\User\controller\delete_controler.php on line 50
+[22-Nov-2023 07:30:39 Europe/Berlin] PHP Warning:  Undefined array key 2 in F:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
+[22-Nov-2023 07:30:39 Europe/Berlin] PHP Warning:  Undefined variable $module in F:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
+[22-Nov-2023 07:30:39 Europe/Berlin] PHP Warning:  Undefined variable $module in F:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
+[22-Nov-2023 07:32:03 Europe/Berlin] PHP Warning:  Undefined variable $json in F:\xampp\htdocs\al_dia_backend\APPS\User\controller\delete_controler.php on line 50
+[22-Nov-2023 07:32:03 Europe/Berlin] PHP Warning:  Undefined variable $json in F:\xampp\htdocs\al_dia_backend\APPS\User\controller\delete_controler.php on line 50
+[22-Nov-2023 07:32:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in F:\xampp\htdocs\al_dia_backend\APPS\User\controller\delete_controler.php on line 50

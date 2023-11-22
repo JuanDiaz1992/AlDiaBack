@@ -9,7 +9,6 @@ if (isset($tokenDecode)) {
     session_start();
     if(isset($data["logout_request"])){
         $response -> logout($tokenDecode->id);
-
     }
     elseif(isset($data["delete_user"])){
         if($tokenDecode && $_SESSION["type_user"] === 'Admin'){
@@ -17,8 +16,10 @@ if (isset($tokenDecode)) {
         }else{
             badResponse();
         }
-        
-    }else if($tokenDecode === 400){
+    }else if(isset($data["delete_picture_profile"])){
+        $response -> deleteUserPhotoController($data["id"]);
+    }
+    else if($tokenDecode === 400){
         badResponse();
     }
 }
