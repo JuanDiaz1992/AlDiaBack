@@ -60,16 +60,12 @@ class PostController{
         }elseif($response["code"] == 200){
             $return -> fncResponse($response,200);
         }
-        
     }
 
     //Función que completa el registro del usuario.
     static public function postControllerCompleteRecord($data,$table){
-        if (!preg_match('/^[0-9]+$/', $data["typeDocument"]) ||
-            !preg_match('/^[0-9_-]+$/', $data["document"]) ||
+        if (!preg_match('/^[0-9_-]+$/', $data["document"]) ||
             !preg_match('/^[0-9_-]+$/', $data["birthdate"]) ||
-            !preg_match('/^[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ\s]+$/', $data["departamentSelect"]) ||
-            !preg_match('/^[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ\s]+$/', $data["citiSelecte"]) ||
             !preg_match('/^[a-zA-Z0-9_#áéíóúÁÉÍÓÚñÑ\s-]+$/', $data["address"]) ||
             !preg_match('/^[0-9_#\s+-]+$/', $data["phone"]) ||
             !preg_match('/^[a-zA-Z0-9_#áéíóúÁÉÍÓÚñÑ\s-]+$/', $data["occupation"]) ||
@@ -92,13 +88,13 @@ class PostController{
         }
     }
     //***********************Este metodo es usado para el inicio de sessión***************/
-    static public function postDataconsultUser($table,$username,$password){ 
+    static public function postDataconsultUser($table,$username,$password){
 
         if (!preg_match('/^[a-zA-Z0-9]+$/', $username) || !preg_match('/^[a-zA-Z0-9]+$/', $password)) { //Si el usuario o contraseña incluyen caracteres, no permite continúar
             $json = array(
                 'status' => 404,
                 'is_logged_in' => false,
-                'message' => 'El usuario o la contraseña no pueden contener caracteres especiales.' 
+                'message' => 'El usuario o la contraseña no pueden contener caracteres especiales.'
             );
             echo json_encode($json,http_response_code($json['status']));
 
@@ -110,7 +106,7 @@ class PostController{
 
 
     }
-    static public function postControllerModifyPhoto($id,$photo,$userName){     
+    static public function postControllerModifyPhoto($id,$photo,$userName){
             if(isset($photo['name'])){ //Si el formulario incluye una imagen, la agrega, sino se pone la img por defecto
                 $carpetaDestino = "files/user_profile/" . $userName;
                 $nombreArchivo = $photo['name'];
@@ -136,7 +132,6 @@ class PostController{
             }elseif($response == 200){
                 $return -> fncResponse($response,200);
             }
-          
     }
     static public function changePassword($id,$password,$confirmPassword){
         if (!preg_match('/^[a-zA-Z0-9]+$/', $password) ||
@@ -148,8 +143,7 @@ class PostController{
             echo json_encode($json, http_response_code($json['status']));
             exit;
         }
-
-        if ($password !== $confirmPassword) { //Aquí se valida que la contraseña sea correcta 
+        if ($password !== $confirmPassword) { //Aquí se valida que la contraseña sea correcta
             $json = array(
                 'status' => 404,
                 'is_logged_in' => false,
@@ -163,7 +157,6 @@ class PostController{
             $return = new PostController();
             if ($response == 404){
                 $return -> fncResponse($response,404);
-
             }elseif($response == 200){
                 $return -> fncResponse($response,200);
             }
@@ -182,7 +175,7 @@ class PostController{
             $_SESSION["type_user"] = $response[0]->type_user;
             $json = array( //Se devuelve el json con la información necesaria para inicia la sesión en el front
                 'status' => 200,
-                'is_logged_in' => true, 
+                'is_logged_in' => true,
                 'token' => $jwt,
                 'username'=> $_SESSION["username"],
                 "message"=> "Usuario correcto",
@@ -195,16 +188,15 @@ class PostController{
                 "id_user"=>$response[0]->id
             );
         }else{
-            $json = array( //Si la contraseña o el usuario son incorrectos, se devuelve la respuesta 
+            $json = array( //Si la contraseña o el usuario son incorrectos, se devuelve la respuesta
                 'status' => 404,
                 'is_logged_in' => false,
-                'message' => 'User or password incorrect' 
+                'message' => 'User or password incorrect'
             );
         }
         echo json_encode($json,http_response_code($json['status']));
 
-    } 
-    
+    }
     //Respuesta del controlador:
     public function fncResponse($response,$status){ //Metodo usado para dar respuestas básicas
         if (!empty($response) && $status === 200) {
@@ -212,7 +204,7 @@ class PostController{
                 'status' => $status,
                 'results' => $response,
                 'registered'=>true,
-                'message' => "Registro ingresado correctamente" 
+                'message' => "Registro ingresado correctamente"
             );
         }else if($status === 409){
             $json = array(
@@ -229,10 +221,7 @@ class PostController{
                 'message' => "No se pudo realizar el registro, valide los datos e intentelo de nuevo"
             );
         }
-
         echo json_encode($json,http_response_code($json['status']));
-
-    
     }
 
 
