@@ -1,9 +1,220 @@
-[22-Nov-2023 07:30:14 Europe/Berlin] PHP Warning:  Undefined variable $json in F:\xampp\htdocs\al_dia_backend\APPS\User\controller\delete_controler.php on line 50
-[22-Nov-2023 07:30:14 Europe/Berlin] PHP Warning:  Undefined variable $json in F:\xampp\htdocs\al_dia_backend\APPS\User\controller\delete_controler.php on line 50
-[22-Nov-2023 07:30:14 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in F:\xampp\htdocs\al_dia_backend\APPS\User\controller\delete_controler.php on line 50
-[22-Nov-2023 07:30:39 Europe/Berlin] PHP Warning:  Undefined array key 2 in F:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 3
-[22-Nov-2023 07:30:39 Europe/Berlin] PHP Warning:  Undefined variable $module in F:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 35
-[22-Nov-2023 07:30:39 Europe/Berlin] PHP Warning:  Undefined variable $module in F:\xampp\htdocs\al_dia_backend\Routes\services\get.php on line 37
-[22-Nov-2023 07:32:03 Europe/Berlin] PHP Warning:  Undefined variable $json in F:\xampp\htdocs\al_dia_backend\APPS\User\controller\delete_controler.php on line 50
-[22-Nov-2023 07:32:03 Europe/Berlin] PHP Warning:  Undefined variable $json in F:\xampp\htdocs\al_dia_backend\APPS\User\controller\delete_controler.php on line 50
-[22-Nov-2023 07:32:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in F:\xampp\htdocs\al_dia_backend\APPS\User\controller\delete_controler.php on line 50
+
+[28-Nov-2023 03:43:37 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => expenses
+    [id_user] => 38
+    [date] => 2023-11-27
+    [amount] => 800000
+    [description] => Ropita para diciembre
+    [category] => 7
+    [record_income] => true
+)
+
+[28-Nov-2023 03:44:40 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => expenses
+    [id_user] => 38
+    [date] => 2023-11-27
+    [amount] => 50000
+    [description] => Gasolina
+    [category] => 3
+    [record_income] => true
+)
+
+[28-Nov-2023 03:45:21 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => income
+    [id_user] => 38
+    [date] => 2023-11-27
+    [amount] => 80000
+    [description] => Salario
+    [category] => 1
+    [record_income] => true
+)
+
+[28-Nov-2023 03:48:18 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => income
+    [id_user] => 38
+    [date] => 2023-10-18
+    [amount] => 30000
+    [description] => Comisiones
+    [category] => 8
+    [record_income] => true
+)
+
+[28-Nov-2023 03:50:07 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => income
+    [id_user] => 38
+    [date] => 2023-11-27
+    [amount] => 30000
+    [description] => Comisiones
+    [category] => 8
+    [record_income] => true
+)
+
+[28-Nov-2023 03:51:08 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => income
+    [id_user] => 38
+    [date] => 2023-10-26
+    [amount] => 1200000
+    [description] => Sueldo
+    [category] => 1
+    [record_income] => true
+)
+
+[28-Nov-2023 03:54:46 Europe/Berlin] Array
+(
+    [photo] => null
+    [userName] => pepinillo
+    [table] => expenses
+    [id_user] => 38
+    [date] => 2023-11-27
+    [amount] => 300000
+    [description] => Pago matricula
+    [category] => 5
+    [record_income] => true
+)
+
+[28-Nov-2023 03:58:06 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => expenses
+    [id_user] => 38
+    [date] => 2023-09-12
+    [amount] => 300000
+    [description] => Alquiler local
+    [category] => 1
+    [record_income] => true
+)
+
+[28-Nov-2023 03:59:13 Europe/Berlin] Array
+(
+    [photo] => null
+    [userName] => pepinillo
+    [table] => income
+    [id_user] => 38
+    [date] => 2022-10-04
+    [amount] => 500000
+    [description] => Salario
+    [category] => 1
+    [record_income] => true
+)
+
+[28-Nov-2023 04:05:12 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => expenses
+    [id_user] => 38
+    [date] => 2023-07-12
+    [amount] => 80000
+    [description] => Mercado
+    [category] => 2
+    [record_income] => true
+)
+
+[28-Nov-2023 04:06:45 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => expenses
+    [id_user] => 38
+    [date] => 2023-11-27
+    [amount] => 80000
+    [description] => Mercado
+    [category] => 2
+    [record_income] => true
+)
+
+[28-Nov-2023 04:08:50 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => income
+    [id_user] => 38
+    [date] => 2023-10-24
+    [amount] => 80000
+    [description] => Bono buen comportamiento
+    [category] => 7
+    [record_income] => true
+)
+
+[28-Nov-2023 04:11:11 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => expenses
+    [id_user] => 38
+    [date] => 2023-11-27
+    [amount] => 80000
+    [description] => Compra abarrotes
+    [category] => 2
+    [record_income] => true
+)
+
+[28-Nov-2023 04:16:18 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => expenses
+    [id_user] => 38
+    [date] => 2023-11-27
+    [amount] => 80000
+    [description] => Compra mercado
+    [category] => 2
+    [record_income] => true
+)
+
+[28-Nov-2023 04:17:29 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => expenses
+    [id_user] => 38
+    [date] => 2023-11-27
+    [amount] => 80000
+    [description] => Pago mensualidad universidad
+    [category] => 5
+    [record_income] => true
+)
+
+[28-Nov-2023 04:17:57 Europe/Berlin] Array
+(
+    [photo] => null
+    [userName] => pepinillo
+    [table] => income
+    [id_user] => 38
+    [date] => 2023-10-16
+    [amount] => 50000
+    [description] => Comisiones
+    [category] => 8
+    [record_income] => true
+)
+
+[28-Nov-2023 04:53:54 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => expenses
+    [id_user] => 38
+    [date] => 2023-11-15
+    [amount] => 80000
+    [description] => Compra gasolina moto
+    [category] => 2
+    [record_income] => true
+)
+
+[28-Nov-2023 04:57:09 Europe/Berlin] Array
+(
+    [userName] => pepinillo
+    [table] => income
+    [id_user] => 38
+    [date] => 2023-11-08
+    [amount] => 500000
+    [description] => Venta Pc
+    [category] => 3
+    [record_income] => true
+)
+

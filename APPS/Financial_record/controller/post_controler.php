@@ -3,7 +3,7 @@
 require_once "APPS/Financial_record/model/post_model.php";
 
 class PostController{
-    static public function record_income_or_expense_controller($data){
+    static public function record_income_or_expense_controller($data,$photo){
         if (
             $data['id_user'] == "" ||
             $data['date'] == "" ||
@@ -21,7 +21,21 @@ class PostController{
                 PostController::fncResponse(409,'','Los datos ingresados no son correctos, valide la información e intentelo de nuevo');
                 exit;
             }
-            $response = PostModel::record_income_or_expense_model($data);
+            //En este bloque se valida si la solicitud viene con una imagen
+            $rutaArchivoRelativa = null;
+            if(isset($photo['name'])){
+                $objetoTiempo = strtotime($data["date"]);
+                $anioMesActual = date("Y-m",$objetoTiempo);
+                $carpetaDestino = "files/user_profile/".$data["userName"]."/".$data['table']."/".$anioMesActual;
+                $nombreArchivo = $photo['name'];
+                $rutaArchivo = $carpetaDestino . "/" . $nombreArchivo;
+                if (!is_dir($carpetaDestino)) {
+                    mkdir($carpetaDestino, 0777, true);
+                }
+                $rutaArchivoRelativa = $carpetaDestino.'/'. $nombreArchivo;
+                move_uploaded_file($photo['tmp_name'], $rutaArchivo);
+            }
+            $response = PostModel::record_income_or_expense_model($data,$rutaArchivoRelativa);
             PostController::fncResponse($response,'','Registro ingresado correctamente');
     }
 
@@ -49,10 +63,7 @@ class PostController{
                 'message' => "No se pudo realizar el registro, valide los datos e intentelo de nuevo"
             );
         }
-
         echo json_encode($json,http_response_code($json['status']));
-
-    
     }
 
 

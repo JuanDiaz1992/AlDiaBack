@@ -17,7 +17,7 @@ if(isset($tokenDecode)){
         }else{
             $response->getData($table,$select);
         }
-    }   
+    }
 }
 
 

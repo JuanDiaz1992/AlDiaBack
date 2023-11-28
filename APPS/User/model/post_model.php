@@ -3,8 +3,8 @@
 
 require_once "alDiaSettings/Connection.php";
 class PostModel{
-    //Creación de Usuario nuevo 
-    static public function postDataCreateUser($data,$hashedPassword,$type_user){   
+    //Creación de Usuario nuevo
+    static public function postDataCreateUser($data,$hashedPassword,$type_user){
         //Valida si el correo o el username ya existe
         $sql = "SELECT * FROM perfil WHERE correo = :correo";
         $stmt = Connection::connect()->prepare($sql);
@@ -16,7 +16,6 @@ class PostModel{
                 "code" =>409
             ];
         }
-        
         $sql = "SELECT * FROM users WHERE user = :user";
         $stmt = Connection::connect()->prepare($sql);
         $stmt->bindParam(":user", $data["userName"], PDO::PARAM_STR);
@@ -67,9 +66,9 @@ class PostModel{
 
     //Función para agregar los datos restantes del registro de usuario
     static public function postDataCompleteRecord($data){
-        $sql = "UPDATE perfil SET 
-                tipo_documento = :tipo_documento, 
-                numero_documento = :numero_documento, 
+        $sql = "UPDATE perfil SET
+                tipo_documento = :tipo_documento,
+                numero_documento = :numero_documento,
                 fecha_nacimiento = :fecha_nacimiento,
                 departamento = :departamento,
                 municipio = :municipio,
@@ -99,8 +98,7 @@ class PostModel{
             return 404;
         }
     }
-      
-          
+
     //Este metodo es utilizado para consultar contraseña con el has
     static public function postDataconsultUser($table, $user, $password)
     {
@@ -132,8 +130,8 @@ class PostModel{
 
 
 
-    static public function PostDataModifyPhoto($id,$photo){   
-        $sql = "UPDATE perfil 
+    static public function PostDataModifyPhoto($id,$photo){
+        $sql = "UPDATE perfil
         JOIN users ON perfil.id_profile = users.perfil
         SET foto_perfil = :foto_perfil
         WHERE users.id = :id";

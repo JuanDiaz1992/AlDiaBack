@@ -11,7 +11,7 @@ if(isset($data["login_request"])){
     exit;
 }else if(isset($data["newUser_request"])){
     $response ->postControllerCreateUser($data);
-    exit;        
+    exit;
 }else if(isset($data["complete_profile"])){
     $table = "users";
     $response ->postControllerCompleteRecord($data,$table);
